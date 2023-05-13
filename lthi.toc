@@ -1,0 +1,30 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {part}{\numberline {I}Definitionen}{3}{}%
+\contentsline {section}{\numberline {1}Homomorphismus}{3}{}%
+\contentsline {section}{\numberline {2}Längenlexikographische Ordnungen}{3}{}%
+\contentsline {section}{\numberline {3}bin(i)}{3}{}%
+\contentsline {section}{\numberline {4}Turingmaschiene}{3}{}%
+\contentsline {subsection}{\numberline {4.1}Konfiguration}{4}{}%
+\contentsline {subsubsection}{\numberline {4.1.1}Nachfolgekonfiguration}{4}{}%
+\contentsline {subsection}{\numberline {4.2}Rechnung}{4}{}%
+\contentsline {subsection}{\numberline {4.3}Total}{4}{}%
+\contentsline {subsection}{\numberline {4.4}Akzeptierte Sprache}{5}{}%
+\contentsline {subsection}{\numberline {4.5}Entscheidbar}{5}{}%
+\contentsline {subsection}{\numberline {4.6}Rekursiv aufzählbar}{5}{}%
+\contentsline {subsection}{\numberline {4.7}Ausgabe}{5}{}%
+\contentsline {subsection}{\numberline {4.8}Berechnete Funktion}{5}{}%
+\contentsline {subsection}{\numberline {4.9}Partiell Berechnbar}{5}{}%
+\contentsline {subsection}{\numberline {4.10}Charakteristische Funktion}{6}{}%
+\contentsline {subsection}{\numberline {4.11}Normiet}{6}{}%
+\contentsline {subsection}{\numberline {4.12}Code}{6}{}%
+\contentsline {subsection}{\numberline {4.13}Standardaufzählung}{7}{}%
+\contentsline {subsection}{\numberline {4.14}\(\mathcal {U}\)}{7}{}%
+\contentsline {subsection}{\numberline {4.15}Universell}{7}{}%
+\contentsline {subsection}{\numberline {4.16}\(s_n^m-Theorem\)}{7}{}%
+\contentsline {subsection}{\numberline {4.17}Diagonales Halteproblem}{7}{}%
+\contentsline {subsection}{\numberline {4.18}m-Reduktion}{7}{}%
+\contentsline {subsection}{\numberline {4.19}Postsches Korrespondenzproblem}{8}{}%
+\contentsline {subsection}{\numberline {4.20}Fixpunkt}{8}{}%
+\contentsline {subsection}{\numberline {4.21}Indexmenge}{8}{}%
+\contentsline {part}{\numberline {II}Aufgabenstellungen}{8}{}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
