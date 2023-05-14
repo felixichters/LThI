@@ -4,6 +4,7 @@
 \usepackage{amsfonts}
 \usepackage{bbm}
 \usepackage{graphicx}
+\usepackage{wrapfig} 
 \graphicspath{{img/}}
 \usepackage[ngerman]{babel}
 \usepackage[T1]{fontenc}
@@ -33,6 +34,7 @@
 \tableofcontents
 \newpage
 \section{Notationen}
+\rule{467.1pt}{0.4pt}
 \begin{itemize}
     \item Für \(n\in\mathbb{N}_0\), sei \([n]=\{1,\dots,n\}\) und \([n]_0=\{0,1,\dots,n\}\).
     \item Für eine Menge A und \(n\in\mathbb{N}\) ist \(A^n=\{(a_1,\dots,a_n):a_1,\dots,a_n\in A\}\).
@@ -41,16 +43,45 @@
     Für \(a_1,\dots,a_n\in A\) bedeutet \(\varphi(a_1,\dots,a_n)\downarrow\), dass \(a_1,\dots,a_n\in dom(\varphi)\) gilt und 
     \(\varphi(a_1,\dots,a_n)\uparrow\) beduetet, dass \((a_1,\dots,a_n)\notin dom(\varphi)\).
     Die partielle Funktion \(\varphi\) ist total, wenn \(dom(\varphi)=A^n\) gilt.
-    \item Eine lineare Ordnung...
+    \item Eine lineare Ordnung auch totale Ordnung, auf einer Menge A ist eine Relation \(\leq\subseteq A^2\), so dass 
+    die folgenden Eigenschaften erfüllt sind
+        \subitem \(a\leq a\) \(\forall a\in A\) (Reflexivität)
+        \subitem \(a\leq b\wedge b\leq a\Rightarrow a=b\) \(\forall a,b\in A\) (Antisymmetrie)
+        \subitem \(a\leq b,b\leq c\Rightarrow a\leq c\) \(\forall a,b,c\in A\) (Transitivität)
+        \subitem \(a\leq b\vee b\leq a\) \(\forall a,b\in A\) (Totalität)
 \end{itemize}
+\newpage
 \part{Definitionen}
 \rule{467.1pt}{0.4pt}
 %Inhalt
 \section{Grundlagen}
     \subsection{Alphabet}
+        Ein Alphabet ist eine nichtleere Menge \(\Sigma\),die Elemente heißen Symbole.
     \subsection{Wörter}
+        Ein Wort über einem Alphabet \(\Sigma\) ist eine endliche Folge von Symbolen aus \(\Sigma\).\\
+        Für \(i\in[|w|]\) bezeichnet \(w(i)\) das i-te Element von w und für Symbole \(a_1,\dots,a_n\in \Sigma\)
+        bezeichnet \(a_1,a_2,\dots,a_n\) das Wort w der Länge n mit \(w(i)=a_i\) \(\forall i\in [n]\).
     \subsection{Sprache}
+        Eine Sprache ist eine Menge von Wörtern über einem gemeinsamen Alphabet \(\Sigma\).
+    \subsection{\(\Sigma^*\)}
+        Die Menge aller Wörter über \(\Sigma\) wird mit \(\Sigma^*\) bezeichnet.\\
+        Für \(n\in\mathbb{N}_0\) setzen wir
+        \[\Sigma^{\leq n}:=\{w\in\Sigma^*:|w|\leq n\}\]
+        \[\Sigma^{=n}:=\{w\in\Sigma^*:|w|=n\}\]
+        \[\Sigma^{\geq n}:=\{w\in\Sigma^*:|w|\geq n\}\]
+        \[\Sigma^{+}:=\Sigma^{\geq 1}\]
+    \subsection{Verkettung}
+        Für Wörter \(w_1,w_2\) ist die Verkettung \(w_1w_2\) ist definiert durch 
+        \[w_1w_2:=w_1(1)\dots w_1(|w_1|)w_2(1)\dots w_2(|w_2|).\]
+        Für Sprachen \(L_1,L_2\) sei \(L_1L_2\) definiert durch 
+        \[L_1L_2:=\{w_1w_2:w_1\in L_1, w_2\in L_2\}\]
     \subsection{Präfix, Infix, Suffix}
+        Seien u,v Wörter 
+        \begin{itemize}
+            \item u ist Präfix von v, kurz \(u\sqsubseteq v\), falls es ein Wort w gibt, sodass uw=v 
+            \item u ist Infix von v, falls es Wörter \(w_1,w_2\) gibt, sodass \(v=w_1uw_2\)
+            \item u ist Suffix von v, falls es ein Wort w gibt, sodass v=wu
+        \end{itemize}
     \subsection{Homomorphismus}
         Für Sprachen \(L,M\) heißt eine Funktion \(\varphi:L\to M\) 
         Homomorphismus von Sprachen, wenn gilt: \[\varphi(uv) = \varphi(u)\varphi(v)\]
@@ -63,8 +94,8 @@
     \subsection{bin(i)}
     \(bin(i)\) ist die Funktion für das in Längenlexikopraphischer Reihnfolge \(i+1\)-te Binärwort.\\
     \(1bin(i)\) beschreibt die Binärdarstellung von \(i+1\).
-\section{Turingmaschiene}
-    \label{sec:Turingmaschiene}
+\newpage
+\section{Turingmaschienen} 
     Eine k-Band Turingmaschiene ist ein Tupel \[M=(Q,\Sigma,\Gamma,\Delta,s,F)\]
     \begin{itemize}
         \item \(Q\) ist die endliche Zustandsmenge
@@ -78,7 +109,7 @@
     \[(q,a_1,\dots,a_k,q',a'_1,\dots,a'_k,B_1,\dots,B_k)\]
     \textit{Eine TM ist eine DTM, wenn es \(\forall b\in Q\times\Gamma^k\) höchstens eine Instruktion \(i\in \Delta\) mit Bedingungsteil b gibt}
     \subsection{Konfiguration}
-        Eine Konfiguration einer k-TM (\ref{sec:Turingmaschiene}) ist ein Tupel 
+        Eine Konfiguration einer k-TM ist ein Tupel 
         \[C=(q,w_1,\dots,w_k,p_1,\dots,p_k)\in Q \times (\Gamma^*)^k \times \mathbb{N}^k\]
         Die Startkonfiguration zur Eingabe \((u_1,\dots,u_n)\in(\Sigma^*)^n\) mit \(n\in\mathbb{N}\), ist die Konfiguration
         \[start(u_1,\dots,u_n)=(s,u_1\square u_2\square\dots\square u_n,\square,\dots,\square,1,\dots,1)\]
@@ -262,5 +293,5 @@
             \(\bigcup\limits_{q\in Q_0}\delta_A^*(q,w)\).
 \newpage
 \part{Aufgabenstellungen}
-...
+\rule{467.1pt}{0.4pt}
 \end{document}

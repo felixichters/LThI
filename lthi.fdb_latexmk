@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1683993491 "c:/Users/felix/Desktop/Uni/ith/LThI/lthi.tex" "lthi.pdf" "lthi" 1683993494 0
+["pdflatex"] 1684093242 "c:/Users/felix/Desktop/Uni/ith/LThI/lthi.tex" "lthi.pdf" "lthi" 1684093244 0
   "c:/Users/felix/.texlive2023/texmf-var/fonts/pk/ljfour/public/bbm/bbm10.657pk" 1683848945 7808 151468ef3ea3c7c3d86a6adce09dce3f ""
-  "c:/Users/felix/Desktop/Uni/ith/LThI/lthi.tex" 1683993490 18222 8df5fbcc162a1f7905765a612798762a ""
+  "c:/Users/felix/Desktop/Uni/ith/LThI/lthi.tex" 1684093236 20245 49a716d6ff1a5c8f068ac0e9e572a62f ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1683666346 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1683666346 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/comfortaa/a_xu66hj.enc" 1683666422 2932 03b826317a42a82db0a99faf8bdb4531 ""
@@ -56,6 +56,7 @@
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb" 1683665704 37166 8ab3487cbe3ab49ebce74c29ea2418db ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1683665704 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1683665704 35752 024fb6c41858982481f6968b5fc26508 ""
+  "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1683665704 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1683665704 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1683665704 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1683665704 32569 5e5ddc8df908dea60932f3c484a54c0d ""
@@ -116,15 +117,16 @@
   "c:/texlive/2023/texmf-dist/tex/latex/koma-script/typearea.sty" 1683667761 58356 db5d798e1c44baa73063020a3086db33 ""
   "c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1683667799 29940 9473d58112bc8a88f5505b823a053dde ""
   "c:/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg" 1683667893 678 4792914a8f45be57bb98413425e4c7af ""
+  "c:/texlive/2023/texmf-dist/tex/latex/wrapfig/wrapfig.sty" 1683670616 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "c:/texlive/2023/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1683670770 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "c:/texlive/2023/texmf-dist/web2c/texmf.cnf" 1683665604 40967 d940221f8762fd5848760382d97d1226 ""
   "c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1683671004 4683009 81ac55e6554f9124653631026fb1fc4e ""
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1683671335 7886676 ebf6bda39cc96a285febd5a9080cc141 ""
   "c:/texlive/2023/texmf.cnf" 1683670963 713 e69b156964470283e0530f5060668171 ""
   "img//dall2.png" 1683987974 1342400 9fb2ef4150e90be4ab664ca49e1ea0c6 ""
-  "lthi.aux" 1683993494 4668 d9108960f707bd402719877049435fba "pdflatex"
-  "lthi.tex" 1683993490 18222 8df5fbcc162a1f7905765a612798762a ""
-  "lthi.toc" 1683993494 2617 543f4b6643cecce23f4826fd5b23c026 "pdflatex"
+  "lthi.aux" 1684093244 4848 4af967a84a79c8bbb7ee2e0740883207 "pdflatex"
+  "lthi.tex" 1684093236 20245 49a716d6ff1a5c8f068ac0e9e572a62f ""
+  "lthi.toc" 1684093244 2754 40d34c24848ff0362060de0b4a92dd3a "pdflatex"
   (generated)
   "lthi.aux"
   "lthi.log"
