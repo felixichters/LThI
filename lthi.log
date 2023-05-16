@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.10)  14 MAY 2023 21:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.10)  16 MAY 2023 12:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -327,40 +327,40 @@ LaTeX Font Info:    Font shape `T1/comfortaa/b/n' will be
  (./lthi.toc
 LaTeX Font Info:    Font shape `T1/comfortaa/b/n' will be
 (Font)              scaled to size 12.0pt on input line 3.
-)
+ [2])
 \tf@toc=\write3
 \openout3 = `lthi.toc'.
 
- [2] [3]
+ [3] [4]
 part I.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
 (scrkbase)              on input line 54.
 LaTeX Font Info:    Font shape `T1/comfortaa/b/n' will be
 (Font)              scaled to size 24.88pt on input line 54.
-[4] [5] [6] [7]
+[5] [6] [7] [8]
 LaTeX Font Info:    Trying to load font information for U+bbm on input line 184.
  (c:/texlive/2023/texmf-dist/tex/latex/bbm-macros/ubbm.fd
 File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
-) [8] [9] [10] [11]
+) [9] [10] [11] [12] [13]
 part II.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 295.
-[12] (./lthi.aux) ) 
+(scrkbase)              on input line 312.
+[14] (./lthi.aux) ) 
 Here is how much of TeX's memory you used:
  7439 strings out of 476047
  142463 string characters out of 5794245
- 1864242 words of memory out of 5000000
+ 1866242 words of memory out of 5000000
  27751 multiletter control sequences out of 15000+600000
  571730 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,12n,106p,10955b,412s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <c:/Users/felix/.texlive2023/texmf-var/fonts/pk/ljfour/public/bbm/bbm10.657pk><c:/texlive/2023/texmf-dist/fonts/type1/aajohan/comfortaa/Comfortaa-Bold.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on lthi.pdf (12 pages, 1634365 bytes).
+Output written on lthi.pdf (14 pages, 1638179 bytes).
 PDF statistics:
- 166 PDF objects out of 1000 (max. 8388607)
- 103 compressed objects within 2 object streams
+ 173 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
