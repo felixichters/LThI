@@ -43,5 +43,11 @@
 \contentsline {subsection}{\numberline {4.5}Regulär}{12}{}%
 \contentsline {subsection}{\numberline {4.6}Übergangsdiagramm}{12}{}%
 \contentsline {subsection}{\numberline {4.7}Potenzautomat}{13}{}%
-\contentsline {part}{\numberline {II}Aufgabenstellungen}{14}{}%
+\contentsline {section}{\numberline {5}Reguläre Sprachen}{13}{}%
+\contentsline {subsection}{\numberline {5.1}Äquivalenzrelation}{13}{}%
+\contentsline {subsection}{\numberline {5.2}A-Äquivalenz}{13}{}%
+\contentsline {subsection}{\numberline {5.3}Rechtskongurenz}{13}{}%
+\contentsline {subsection}{\numberline {5.5}Ereichbar}{14}{}%
+\contentsline {subsection}{\numberline {5.6}Isomorph}{14}{}%
+\contentsline {part}{\numberline {II}Aufgabenstellungen}{15}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

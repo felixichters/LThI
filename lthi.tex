@@ -308,6 +308,54 @@
     \subsection{Potenzautomat}
         Sei A ein EA. Der Potenzautomat von A ist der DEA \(P_a=(2^Q, \Sigma, \Delta',\{s\},\{P\subseteq Q:P\cap F\neq\varnothing\})\) mit
         \[\delta_{det,P_a}(Q_0,a)=\bigcup\limits_{q\in Q_0}\delta_A(q,a)\text{ }\forall Q_0\subseteq Q\text{ }\forall a\in\Sigma\]
+\section{Reguläre Sprachen}
+    \textit{Wir verschieben den Fokus von endlichen Automaten auf die Klasse der von diesen erkannten Sprachen.
+    Dabei spielen endl. Automaten weiterhin eine wichtige Rolle.
+    Wegen 4.7 beschränken wir uns auf deterministische endliche Automaten.\\
+    Sei A DEA. Die Menge der zulässigen Eingaben \(\Sigma^*\) ist unendlich groß, 
+    die Menge der Zustände Q is aber endlich. Zwangsläufig wir A also das Einlesen verschiedener 
+    Eingaben im gleichen Zustand abschließen (und somit gleich behandeln). Dies führt zum Begriff
+    der A-Äquivalenz.}
+    \subsection{Äquivalenzrelation}
+        Sei A eine Menge. Eine Äquivalenzrelation auf A ist eine Relation \(\sim\subseteq A²\), so dass
+        die folgenden Eigenschaften erfüllt sind.
+        \begin{enumerate}
+            \item \(a\sim a\) \(\forall a\in A\) (Reflexivität)
+            \item \(a\sim b\Rightarrow b\sim a\) \(\forall a,b \in A\) (Symmetrie)
+            \item \(a\sim b, b\sim c\Rightarrow a\sim c\) \(\forall a,b,c\in A\) (Transitivität)
+        \end{enumerate}
+        Die Äquivalenzklasse eines Elements \(a\in A\) bezüglich \(\sim\) ist die Menge 
+        \([a]_\sim:=\{a'\in A:a'\sim a\}\). Der Index von \(\sim\) isr die Kardinalität
+        der Menge \(A/{\sim}:=\{[a]_\sim:a\in A\}\) falls diese endlich ist und unendlich andernfalls.
+    \subsection{A-Äquivalenz}
+        Sei A ein DEA. mit erweiterter Übergangsfunktion \(\delta^*:Q\times\Sigma\to Q\).\\
+        Die A-Äquivalenz ist die Relation \(\sim_A\) auf \(\Sigma^*\) mit 
+        \[u\sim_A v\Leftrightarrow \delta^*(s,u)=\delta^*(s,v)\text{ }\forall u,v\in\Sigma^*\]
+    \subsection{Rechtskongurenz}
+        Sei \(\Sigma\) ein Alphabet. Eine Rechtskongurenz auf \(\Sigma^*\) ist eine Äquivalenzrelation
+        \(\sim\subseteq(\Sigma^*)^2\) mit \\
+        \(u\sim v\Rightarrow uw\sim vw\) \(\forall u,v,w\in\Sigma^*\)
+    \subsection{}
+        Sei \(\Sigma\) ein Alphabet und L Vereinigung von Äquivalenzklassen einer Rechtskongurenz \(\sim\)
+        auf \(\Sigma^*\) mit endlichem Index. Es bezeichne 
+        \[A_{\sim,L}:=(\Sigma^*/{\sim},\Sigma,\Delta,[\lambda]_\sim,\{[w]_\sim:w\in L\})\]
+        den DEA mit \(\delta_{det,A_{\sim,L}}([w]_\sim,a)=[wa]_\sim\) \(\forall w\in\Sigma^*\) und \(a\in\Sigma\).
+        %Die Wohldefiniertheit von \(\delta_{det,A_{\sim,L}}\) ergibt sich daraus, dass \(\sim\) eine %Rechtskongurenz ist.\\
+        %Um uns davon zu überzeugen, dass \(L(A_{\sim,L})=L\) gilt betrachten wir zunächst die Arbeitsweise von 
+        %\(A_{\sim,L}\).
+    \subsection{Ereichbar}
+        Sei \(\Sigma\) ein Alphabet. Sei A ein EA mit erw. Übergangsfunktion \(\delta^*\). 
+        Ein Zustand \(q\in Q\) heißt erreichbar in A wenn es ein Wort \\
+        \(w\in\Sigma^*\) mit \(q\in\delta^*(s,w)\) gibt.
+    \subsection{Isomorph}
+        Sei \(A_i\)für \(i\in\{1,2\}\) ein EA mit Übergangsfunktion \(\delta_i\).\\
+        Die endlichen Automaten \(A_1\) und \(A_2\) sind Isomorph, kurz \(A\cong A_2 \), wenn es eine Projektion \\ \(f:Q_1\to Q_2\) gibt, so dass folgendes gilt:
+        \begin{enumerate}
+            \item \(f(s_1)=s_2\)
+            \item \(\delta_2(f(q_1),a)=f(\delta_1(q_1,a))\) \(\forall q_1\in Q... \)
+            \item \(f(F_1)=F_2\)
+        \end{enumerate}
+
 \newpage
 \part{Aufgabenstellungen}
 \rule{467.1pt}{0.4pt}
