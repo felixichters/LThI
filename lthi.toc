@@ -1,53 +1,55 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {section}{\numberline {1}Notationen}{4}{}%
-\contentsline {part}{\numberline {I}Definitionen}{5}{}%
-\contentsline {section}{\numberline {2}Grundlagen}{5}{}%
-\contentsline {subsection}{\numberline {2.1}Alphabet}{5}{}%
-\contentsline {subsection}{\numberline {2.2}Wörter}{5}{}%
-\contentsline {subsection}{\numberline {2.3}Sprache}{5}{}%
-\contentsline {subsection}{\numberline {2.4}\(\Sigma ^*\)}{5}{}%
-\contentsline {subsection}{\numberline {2.5}Verkettung}{5}{}%
-\contentsline {subsection}{\numberline {2.6}Präfix, Infix, Suffix}{5}{}%
-\contentsline {subsection}{\numberline {2.7}Homomorphismus}{6}{}%
-\contentsline {subsection}{\numberline {2.8}Längenlexikographische Ordnungen}{6}{}%
-\contentsline {subsection}{\numberline {2.9}bin(i)}{6}{}%
-\contentsline {section}{\numberline {3}Turingmaschienen}{7}{}%
-\contentsline {subsection}{\numberline {3.1}Konfiguration}{7}{}%
-\contentsline {subsubsection}{\numberline {3.1.1}Nachfolgekonfiguration}{7}{}%
-\contentsline {subsection}{\numberline {3.2}Rechnung}{8}{}%
-\contentsline {subsection}{\numberline {3.3}Total}{8}{}%
-\contentsline {subsection}{\numberline {3.4}Akzeptierte Sprache}{8}{}%
-\contentsline {subsection}{\numberline {3.5}Entscheidbar}{8}{}%
-\contentsline {subsection}{\numberline {3.6}Rekursiv aufzählbar}{8}{}%
-\contentsline {subsection}{\numberline {3.7}Ausgabe}{8}{}%
-\contentsline {subsection}{\numberline {3.8}Berechnete Funktion}{8}{}%
-\contentsline {subsection}{\numberline {3.9}Partiell Berechnbar}{9}{}%
-\contentsline {subsection}{\numberline {3.10}Charakteristische Funktion}{9}{}%
-\contentsline {subsection}{\numberline {3.11}Normiet}{9}{}%
-\contentsline {subsection}{\numberline {3.12}Code}{10}{}%
-\contentsline {subsection}{\numberline {3.13}Standardaufzählung}{10}{}%
-\contentsline {subsection}{\numberline {3.14}\(\mathcal {U}\)}{10}{}%
-\contentsline {subsection}{\numberline {3.15}Universell}{10}{}%
-\contentsline {subsection}{\numberline {3.16}\(s_n^m-Theorem\)}{10}{}%
-\contentsline {subsection}{\numberline {3.17}Diagonales Halteproblem}{11}{}%
-\contentsline {subsection}{\numberline {3.18}m-Reduktion}{11}{}%
-\contentsline {subsection}{\numberline {3.19}Postsches Korrespondenzproblem}{11}{}%
-\contentsline {subsection}{\numberline {3.20}Fixpunkt}{11}{}%
-\contentsline {subsection}{\numberline {3.21}Rekursionstheorem}{11}{}%
-\contentsline {subsection}{\numberline {3.22}Indexmenge}{11}{}%
-\contentsline {section}{\numberline {4}Automaten}{12}{}%
-\contentsline {subsection}{\numberline {4.1}Endlicher Automat}{12}{}%
-\contentsline {subsection}{\numberline {4.2}Übergangsfunktion eines EA}{12}{}%
-\contentsline {subsection}{\numberline {4.3}Übergangsfunktion eines DEA}{12}{}%
-\contentsline {subsection}{\numberline {4.4}akzeptierte Sprache}{12}{}%
-\contentsline {subsection}{\numberline {4.5}Regulär}{12}{}%
-\contentsline {subsection}{\numberline {4.6}Übergangsdiagramm}{12}{}%
-\contentsline {subsection}{\numberline {4.7}Potenzautomat}{13}{}%
-\contentsline {section}{\numberline {5}Reguläre Sprachen}{13}{}%
-\contentsline {subsection}{\numberline {5.1}Äquivalenzrelation}{13}{}%
-\contentsline {subsection}{\numberline {5.2}A-Äquivalenz}{13}{}%
-\contentsline {subsection}{\numberline {5.3}Rechtskongurenz}{13}{}%
-\contentsline {subsection}{\numberline {5.5}Ereichbar}{14}{}%
-\contentsline {subsection}{\numberline {5.6}Isomorph}{14}{}%
-\contentsline {part}{\numberline {II}Aufgabenstellungen}{15}{}%
+\contentsline {section}{\numberline {1}Grundlagen}{5}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Alphabet}{6}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Wörter}{6}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Sprache}{6}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}\(\Sigma ^*\)}{6}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Verkettung}{6}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Präfix, Infix, Suffix}{6}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Homomorphismus}{6}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}Längenlexikographische Ordnungen}{7}{subsection.1.8}%
+\contentsline {subsection}{\numberline {1.9}bin(i)}{7}{subsection.1.9}%
+\contentsline {section}{\numberline {2}Turingmaschienen}{8}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Turingmaschiene}{9}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Konfiguration}{9}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Nachfolgekonfiguration}{9}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Rechnung}{10}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Total}{10}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Akzeptierte Sprache}{10}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Entscheidbar}{10}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Rekursiv aufzählbar}{10}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Ausgabe}{11}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Berechnete Funktion}{11}{subsection.2.10}%
+\contentsline {subsection}{\numberline {2.11}Partiell Berechnbar}{11}{subsection.2.11}%
+\contentsline {subsection}{\numberline {2.12}Charakteristische Funktion}{11}{subsection.2.12}%
+\contentsline {subsection}{\numberline {2.13}Normiet}{12}{subsection.2.13}%
+\contentsline {subsection}{\numberline {2.14}Code}{12}{subsection.2.14}%
+\contentsline {subsection}{\numberline {2.15}Standardaufzählung}{13}{subsection.2.15}%
+\contentsline {subsection}{\numberline {2.16}U}{13}{subsection.2.16}%
+\contentsline {subsection}{\numberline {2.17}Universell}{13}{subsection.2.17}%
+\contentsline {subsection}{\numberline {2.18}s m n-Theorem}{13}{subsection.2.18}%
+\contentsline {subsection}{\numberline {2.19}Diagonales Halteproblem}{14}{subsection.2.19}%
+\contentsline {subsection}{\numberline {2.20}m-Reduktion}{14}{subsection.2.20}%
+\contentsline {subsection}{\numberline {2.21}Postsches Korrespondenzproblem}{14}{subsection.2.21}%
+\contentsline {subsection}{\numberline {2.22}Fixpunkt}{14}{subsection.2.22}%
+\contentsline {subsection}{\numberline {2.23}Rekursionstheorem}{14}{subsection.2.23}%
+\contentsline {subsection}{\numberline {2.24}Indexmenge}{15}{subsection.2.24}%
+\contentsline {section}{\numberline {3}Automaten}{16}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Endlicher Automat}{17}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Übergangsfunktion eines EA}{17}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Übergangsfunktion eines DEA}{17}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}akzeptierte Sprache}{18}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Regulär}{18}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Übergangsdiagramm}{18}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Potenzautomat}{18}{subsection.3.7}%
+\contentsline {section}{\numberline {4}Reguläre Sprachen}{20}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Äquivalenzrelation}{21}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}A-Äquivalenz}{21}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Rechtskongurenz}{21}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.5}Erreichbar}{22}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Isomorph}{23}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}L-Äquivalenz}{23}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Partition}{24}{subsection.4.8}%
+\contentsline {subsection}{\numberline {4.9}Verfeinerung}{24}{subsection.4.9}%
+\contentsline {subsection}{\numberline {4.10}Minimalautomat}{24}{subsection.4.10}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
