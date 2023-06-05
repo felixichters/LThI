@@ -2,20 +2,23 @@
 \usepackage{dsfont}
 \usepackage{tikz}
 \usepackage{caption}
-\usetikzlibrary{tikzmark}
+\usepackage{fancyhdr}
 \usepackage{amsmath}
 \usepackage{amsthm}
+\usepackage{enumerate}
+\usepackage{enumitem}
 \usepackage{amssymb}
 \usepackage{amsfonts}
 \usepackage{bbm}
-\newtheorem{proposition}{Proposition}
 \usepackage{graphicx}
 \usepackage{hyperref}
-\graphicspath{{img/}}
 \usepackage[ngerman]{babel}
-\usepackage[T1]{fontenc}
+\usepackage[OT1]{fontenc}
 \usepackage{comfortaa}
+\graphicspath{{img/}}
+\usetikzlibrary{tikzmark}
 \renewcommand{\sfdefault}{comfortaa}
+
 \title{Einführung in die Theoretische Informatik}
 \author{Felix Ichters\thanks{Universität Heidelberg}}
 \date{Sommersemester 2023}
@@ -36,7 +39,11 @@
 \newpage
 \tableofcontents
 \newpage
+\part{Definitionen}
+\rule{\textwidth}{0.4pt}
+\newpage
 \section*{Notationen}
+\rule{\textwidth}{0.4pt}\bigskip
 \begin{itemize}
     \item Für \(n\in\mathbb{N}_0\), sei \([n]=\{1,\dots,n\}\) und \([n]_0=\{0,1,\dots,n\}\).
     \item Für eine Menge A und \(n\in\mathbb{N}\) ist \(A^n=\{(a_1,\dots,a_n):a_1,\dots,a_n\in A\}\).
@@ -52,8 +59,11 @@
         \subitem \(a\leq b,b\leq c\Rightarrow a\leq c\) \(\forall a,b,c\in A\) (Transitivität)
         \subitem \(a\leq b\vee b\leq a\) \(\forall a,b\in A\) (Totalität)
 \end{itemize}
+\pagestyle{fancy}
+\fancyhead{}
 \include{grundlagen/grundlagen}
 \include{turingmaschienen/turingmaschienen}
 \include{automaten/automaten}
 \include{reguläre_sprachen/reguläre_sprachen}
+\include{formale_grammatiken/formale_grammatiken}
 \end{document}
